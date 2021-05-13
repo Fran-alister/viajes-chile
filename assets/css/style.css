@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  background: #000000;
 }
 
 body * {
@@ -7,6 +8,7 @@ body * {
   margin: 0;
   border: 0;
   padding: 0;
+
 }
 
 h2 {
@@ -20,9 +22,9 @@ h2 {
   height: 240px;
 }
 
-/* .carousel {
-  height: 800px;
-  width: 100%;
+/* .carousel-indicators li {
+  width: auto;
+  height:
 } */
 
 .img-fluid {
