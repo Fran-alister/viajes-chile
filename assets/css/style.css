@@ -13,14 +13,23 @@ body * {
 
 p {
   color: #6c757d;
+  padding: 0 0 5px;
+
 }
 h1 {
+  font-weight: bold;
   text-align: center;
   color: #6c757d;
 }
 
 h2 {
+  font-weight: bold;
   text-align: center;
+  color: #6c757d;
+}
+
+h5 {
+  font-weight: bold;
   color: #6c757d;
 }
 
