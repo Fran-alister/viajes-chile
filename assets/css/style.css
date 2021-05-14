@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background: #000000;
+  /* background: #000000; */
 }
 
 body * {
@@ -12,16 +12,16 @@ body * {
 }
 
 p {
-  color: #ffffff;
+  color: #6c757d;
 }
 h1 {
   text-align: center;
-  color: #ffffff;
+  color: #6c757d;
 }
 
 h2 {
   text-align: center;
-  color: #ffffff;
+  color: #6c757d;
 }
 
 .object-fit {
