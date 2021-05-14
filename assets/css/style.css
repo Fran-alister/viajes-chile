@@ -51,3 +51,7 @@ h5 {
 .fab {
   color: #ffffff;
 }
+
+.col-sm-12 {
+  align-content: center;
+}

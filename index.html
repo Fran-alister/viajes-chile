@@ -61,11 +61,11 @@
   <!-- inicio header -->
 
   <header id="inicio" class="hero-section">
-    <div id="carrusel-viajes-chile" class="carousel slide" data-ride="carousel">
+    <div id="carousel-vc" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators pb-4">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        <li data-target="#carousel-vc" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-vc" data-slide-to="1"></li>
+        <li data-target="#carousel-vc" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -78,11 +78,11 @@
           <img src="assets/img/carousel3.jpg" class="d-block img-fluid" alt="Patagonia">
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <a class="carousel-control-prev" href="#carousel-vc" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#carousel-vc" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
@@ -94,7 +94,7 @@
   <!-- inicio container quienes somos -->
   <section id="work" class="container d-none d-md-block pb-5 pt-5">
     <div class="row justify-content-center">
-      <h1 class="display-5">¿Quiénes somos?</h1>
+      <h1 class="display-5 pb-5">¿Quiénes somos?</h1>
     </div>
 
     <div class="row">
@@ -277,15 +277,9 @@
   </div>
 
 
-
-
-
   <!-- inicio del formulario -->
   <section id="contact" class="container my-5">
-    <!-- <div class="row justify-content-center">
-      <h2 class="display-5">¡Contáctanos!</h2>
-    </div>
-    <p class="text-center my-4">En Viajes Chile nos interesa tu opinión. Si tienes alguna duda, sugerencia, o solicitud completa el siguiente formulario y nos contactaremos contigo lo antes posible.</p> -->
+
     <div class="typeform-widget" data-url="https://form.typeform.com/to/JFHEA3mh?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
   </section>
   <!-- cierre formulario -->
@@ -299,7 +293,7 @@
           <p class="display-5 text-center text-md-right text-uppercase font-weight-bold" style="color: #ffffff" id="texto-footer">Viajes Chile</p>
         </div>
 
-        <div class="col col-md-6">
+        <div class="col-sm-12 col-md-6 align-items-center" id="iconos-footer">
           <a href="https://github.com/">
             <i class="fab fa-github-square fa-2x py-1 px-1"></i></a>
           <a href="https://twitter.com/">
