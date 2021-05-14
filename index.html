@@ -42,7 +42,7 @@
           <li class="nav-item active">
             <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-sm-none d-md-block">
             <!-- eliminar cuando esté en mobile -->
             <a class="nav-link" href="#work">Quiénes somos</a>
           </li>
@@ -97,12 +97,10 @@
       <h1 class="display-5">¿Quiénes somos?</h1>
     </div>
 
-    <!-- acá falta un divisor -->
-
     <div class="row">
       <div class="col col-4 p-5">
         <div class="row justify-content-center bg-info">
-          <i class="fas fa-plane p-2 fa-2x"></i>
+          <i class="fas fa-plane p-2 fa-2x" data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-content="Viaja seguro"></i>
         </div>
         <p class="text-left pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat.</p>
         <p class="text-left pt-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillumdolore eu fugiat nulla pariaturl. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -113,13 +111,13 @@
         <p class="text-left pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat.</p>
         <p class="text-left pb-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillumdolore eu fugiat nulla pariaturl. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <div class="row justify-content-center bg-info">
-          <i class="fas fa-mountain p-2 fa-2x"></i>
+          <i class="fas fa-mountain p-2 fa-2x" data-container="body" data-trigger="hover" data-toggle="popover" data-placement="bottom" data-content="Hermosos paisajes"></i>
         </div>
       </div>
 
       <div class="col col-4 p-5">
         <div class="row justify-content-center bg-info">
-          <i class="fas fa-route p-2 fa-2x"></i>
+          <i class="fas fa-route p-2 fa-2x" data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-content="Exclusivos destinos"></i>
         </div>
         <p class="text-left pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat.</p>
         <p class="text-left pt-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillumdolore eu fugiat nulla pariaturl. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -284,25 +282,11 @@
 
   <!-- inicio del formulario -->
   <section id="contact" class="container my-5">
-    <div class="row justify-content-center">
+    <!-- <div class="row justify-content-center">
       <h2 class="display-5">¡Contáctanos!</h2>
     </div>
-    <p class="text-center my-4">En Viajes Chile nos interesa tu opinión. Si tienes alguna duda, sugerencia, o solicitud completa el siguiente formulario y nos contactaremos contigo lo antes posible.</p>
-    <form>
-      <div class="form-group">
-        <label for="formGroupExampleInput">Nombre</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre Apellido">
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Correo electrónico</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Ingresa tu mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
+    <p class="text-center my-4">En Viajes Chile nos interesa tu opinión. Si tienes alguna duda, sugerencia, o solicitud completa el siguiente formulario y nos contactaremos contigo lo antes posible.</p> -->
+    <div class="typeform-widget" data-url="https://form.typeform.com/to/JFHEA3mh?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
   </section>
   <!-- cierre formulario -->
 
@@ -314,8 +298,6 @@
         <div class="col col-md-6">
           <p class="display-5 text-center text-md-right text-uppercase font-weight-bold" style="color: #ffffff" id="texto-footer">Viajes Chile</p>
         </div>
-
-        <!-- <div class="col col-md-6 offset-md-3"> -->
 
         <div class="col col-md-6">
           <a href="https://github.com/">
